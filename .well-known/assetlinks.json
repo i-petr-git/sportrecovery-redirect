@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.sportpulse.app",
+      "sha256_cert_fingerprints": [
+        "EB:D2:6A:4F:B8:E0:94:7D:BF:CC:4E:59:77:A0:D9:9C:09:CE:F4:57:02:2D:B3:BB:DE:0F:DE:0D:FF:D0:16:00"
+      ]
+    }
+  }
+]

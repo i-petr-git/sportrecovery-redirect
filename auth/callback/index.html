@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Возврат в SportPulse...</title>
+  <script>
+    window.location.replace("sportpulse://auth/callback" + window.location.search + window.location.hash);
+  </script>
+</head>
+<body style="font-family: -apple-system, sans-serif; text-align: center; padding: 60px 20px; background: #0f172a; color: #ffffff;">
+  <h2>Возвращаем вас в SportPulse...</h2>
+  <p style="color: #94a3b8; margin-bottom: 24px;">Если приложение не открылось автоматически, нажмите на кнопку ниже:</p>
+  <a id="btn" href="sportpulse://auth/callback" style="display: inline-block; background: #0077FF; color: #ffffff; text-decoration: none; padding: 14px 28px; border-radius: 12px; font-weight: bold;">
+    Открыть SportPulse
+  </a>
+  <script>
+    document.getElementById("btn").href = "sportpulse://auth/callback" + window.location.search + window.location.hash;
+  </script>
+</body>
+</html>

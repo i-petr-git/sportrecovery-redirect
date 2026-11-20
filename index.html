@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SportPulse — Персональные тренировки и реабилитация</title>
+  <script>
+    window.onload = function() {
+      var params = window.location.search;
+      if (params) {
+        // Пытаемся открыть приложение, если оно уже установлено
+        window.location.href = "sportpulse://" + params;
+      }
+    };
+  </script>
+</head>
+<body style="font-family: -apple-system, sans-serif; text-align: center; padding: 60px 20px; background: #0f172a; color: #ffffff;">
+  <h1 style="margin-bottom: 12px;">SportPulse</h1>
+  <p style="color: #94a3b8; max-width: 400px; margin: 0 auto 32px auto; line-height: 1.5;">
+    Вас пригласили в умный дневник тренировок и бережной реабилитации. Установите приложение, чтобы активировать бонус по приглашению:
+  </p>
+  <a href="https://rustore.ru" style="display: inline-block; background: #0077FF; color: #ffffff; text-decoration: none; padding: 16px 32px; border-radius: 12px; font-weight: bold; margin-bottom: 16px;">
+    Скачать в RuStore
+  </a>
+</body>
+</html>
